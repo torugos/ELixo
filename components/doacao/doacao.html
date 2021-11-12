@@ -16,136 +16,79 @@
       crossorigin="anonymous"
     ></script>
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="/components/post/post.css" rel="stylesheet" />
+    <link href="/components/doacao/doacao.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="/components/index/index.html">ELixo</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          Menu
-          <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto py-4 py-lg-0">
-            <li class="nav-item">
-              <a
-                class="nav-link px-lg-3 py-3 py-lg-4"
-                href="/components/index/index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link px-lg-3 py-3 py-lg-4"
-                href="/components/sobre/sobre.html"
-                >Sobre Nós</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link px-lg-3 py-3 py-lg-4"
-                href="/components/doacao/doacao.html"
-                >Doações</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link px-lg-3 py-3 py-lg-4"
-                href="/components/cadastro/cadastro.html"
-                >Cadastro</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link px-lg-3 py-3 py-lg-4"
-                href="/components/fale/fale.html"
-                >Fale Conosco</a
-              >
-            </li>
-          </ul>
-        </div>
+          <a class="navbar-brand" href="/components/index/index.html">ELixo</a>
+          <button class="navbar-toggler" type="button">
+              Menu
+              <i class="fas fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                  <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/index/index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/sobre/sobre.html">Sobre Nós</a></li>
+                  <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/cadastro/cadastro.html">Cadastro</a></li>
+                  <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/doacao/doacao.html">Doações</a></li>
+                  <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/fale/fale.html">Fale Conosco</a></li>
+              </ul>
+          </div>
       </div>
-    </nav>
+  </nav>
     <!-- Page Header-->
-    <header
-      class="masthead"
-      style="
-        background-image: url('/assets/img/donate.jfif');
-        background-size: 100%;
-      "
-    >
+    <header class="masthead" style="background-image: url('/assets/img/donate.jfif'); background-size: 100%;">
       <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
           <div class="col-md-10 col-lg-8 col-xl-7">
-            <div class="post-heading">
-              <h1 style="text-align: center">Doações</h1>
+            <div class="site-heading">
+              <h1>Doações</h1>
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <div style="text-align: center;">
-        <a >Qual o estado dos itens?</a>
-        <div >
+    <div class="container1" style="text-align: center;">
+        <h2>Quais itens você gostaria de doar?</h2>
+        <div class="group" >
             <div>
                 <label class="checkbox-inline">
-                    <input type="checkbox" /> Notebook
-                    <input type="checkbox" value="" style="padding: left 10px;;"/> Periféricos
+                    <input type="checkbox" class="caixa"/> Notebook
+                    <input type="checkbox" class="caixa"/> Periféricos
                 </label>    
             </div>
             <div>
                 <label class="checkbox-inline">
-                    <input type="checkbox" /> Desktop
-                    <input type="checkbox" /> Notebook
+                    <input type="checkbox" class="caixa"/> Desktop
+                    <input type="checkbox" class="caixa"/> Impressora
                 </label>
             </div>
             <div>
                 <label class="checkbox-inline">
-                    <input type="checkbox" /> Desktop
-                    <input type="checkbox" /> Notebook
+                    <input type="checkbox" class="caixa"/> Celular
+                    <input type="checkbox" class="caixa"/> Outros
                 </label>
             </div>
-           
+        </div>  
+    </div>     
 <br>
     <div style="text-align: center;">
-        <a >Qual o estado dos itens?</a>
+        <h2 >Qual o estado dos itens?</h2>
         <div >
           <label class="checkbox-inline">
-            <input type="checkbox" /> Notebook
-          </label>
-          <br />
-          <label class="checkbox-inline">
-            <input type="checkbox" value="" /> Periféricos
-          </label>
-          <br />
-          <label class="checkbox-inline">
-            <input type="checkbox" /> Desktop
+            <input type="checkbox" class="caixa"/> Notebook
+            <input type="checkbox" class="caixa"/> Desktop
+            <input type="checkbox" class="caixa" /> Periféricos
           </label>
         </div>
-        <div >
-          <label class="checkbox-inline">
-            <input type="checkbox" /> Notebook
-          </label>
-          <br />
-          <label class="checkbox-inline">
-            <input type="checkbox" value="" /> Periféricos
-          </label>
-          <br />
-          <label class="checkbox-inline">
-            <input type="checkbox" /> Desktop
-          </label>
-        </div>
+    </div>
+<br>
+    <div class="d-flex justify-content-center mb-4">
+      <input class="btn btn-primary text-uppercase" type="button" onclick="btnEnviar()" value="Exibir Alert" />
+      <!-- <button class="btn btn-primary text-uppercase"  type="submit" id="btnEnviar" onclick="btnEnviar()" value="Exibir Alert">Enviar</button> -->
     </div>
 
       <!-- Footer-->
@@ -190,6 +133,6 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
+    <script src="/components/doacao/doacao.js"></script>
   </body>
 </html>
