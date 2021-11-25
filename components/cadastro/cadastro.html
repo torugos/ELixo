@@ -24,8 +24,8 @@
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/index/index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/sobre/sobre.html">Sobre Nós</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/doacao/doacao.html">Doações</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/cadastro/cadastro.html">Cadastro</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/doacao/doacao.html">Doações</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/components/fale/fale.html">Fale Conosco</a></li>
                     </ul>
                 </div>
@@ -59,7 +59,7 @@
                         <article class="areaCadastro">
                             <form id="formCadastro" name="formulario" onsubmit="return validarSenha(this);" action="" method="POST">
                                 <div class="form-floating">
-                                    <input class="form-control" id="name" type="text" placeholder="Digite seu name..." data-sb-validations="required" />
+                                    <input class="form-control" id="name" type="text" placeholder="Digite seu nome..." data-sb-validations="required" />
                                     <label for="name">Nome da empresa:</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">Um nome é obrigatório.</div>
                                 </div>
@@ -84,12 +84,13 @@
                                 </div>
                             -->
                                 <div class="form-floating">
-                                    <textarea class="form-control" id="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                    <textarea class="form-control" id="message" placeholder="Escreva sua mensagem..." style="height: 10rem" data-sb-validations="required"></textarea>
                                     <label for="message">Escreva brevemente sobre o seu projeto de doação:</label>
                                     <div class="invalid-feedback" data-sb-feedback="message:required">Uma mensagem é obrigatória.</div>
                                 </div>
                             
-                            </div><!-- Submit Button-->
+                            </div>
+                            <!-- Submit Button-->
                             <div class="d-flex justify-content-end mb-4">
                                 <button class="btn btn-primary text-uppercase"  type="submit">Enviar</button>
                             </div>
