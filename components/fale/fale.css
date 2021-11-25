@@ -11124,7 +11124,7 @@ header.masthead {
   padding-top: calc(8rem + 57px);
   padding-bottom: 8rem;
   background: no-repeat center center;
-  background-color: white;
+  background-color: #f7f7f7;
   background-size: contain;
   background-attachment: scroll;
 }
@@ -11246,4 +11246,39 @@ header.masthead .site-heading .h1 {
   .post-preview > a > .post-title {
     font-size: 2.25rem;
   }
+}
+
+/* Split the screen into thirds*/
+.split {
+  height: 100%;
+  width: 33.3333%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+.center {
+  right:auto;
+  left:auto;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: relative;
+  display: inline-block;
+  top: 42rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
